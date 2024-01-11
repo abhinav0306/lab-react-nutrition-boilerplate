@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+article{
+    min-width: 600px;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+#search{
+    width: 20vw;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 20px;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.field{
+    display: flex;
+     gap: 10px;
+}
+img{
+    width: 150px;
+}
+
+
+.name{
+    text-transform: capitalize;
+}
+button{
+    cursor: pointer;
+}
